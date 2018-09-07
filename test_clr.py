@@ -1,5 +1,5 @@
 import cntk as C
-from learner.clr import CyclicalLeaningRate
+from clr import CyclicalLeaningRate
 import matplotlib.pyplot as plt
 
 
