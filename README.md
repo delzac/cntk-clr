@@ -1,7 +1,7 @@
 # cntk-clr
 Cyclical Learning rate implementation for Microsoft Cognitive Toolkit CNTK
 
-Cyclical learning rate is an implementation to that  practically eliminates the need to experimentally find the best values and schedule  for  the global  learning  rates. Instead  of  monotonically decreasing the learning rate, this method lets the learning  rate  cyclically  vary  between  reasonable  boundary  values. Training  with  cyclical  learning  rates  instead of  fixed  values  achieves improved  classification  accuracy without a need to tune and often in fewer iterations.
+Cyclical learning rate is an implementation that  practically eliminates the need to experimentally find the best values and schedule  for  the global  learning  rates. Instead  of  monotonically decreasing the learning rate, this method lets the learning  rate  cyclically  vary  between  reasonable  boundary  values. Training  with  cyclical  learning  rates  instead of  fixed  values  achieves improved  classification  accuracy without a need to tune and often in fewer iterations.
 
 This repository provides a class that can be used in training that allows the implementation of cyclical learning rate policies, as detailed in Leslie Smith's paper [Cyclical Learning Rates for Training Neural Networks
 arXiv:1506.01186v4](https://arxiv.org/abs/1506.01186 "Title")
