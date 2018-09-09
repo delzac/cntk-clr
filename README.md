@@ -10,11 +10,11 @@ Cyclical learning rate can easily be incorporated into your CNTK training script
 
 ```python
 sgd_momentum = C.momentum_sgd(...)
-clr = CyclicalLeaningRate(sgd_momentum, minibatch_size=32)  # instantiate the class
+clr = CyclicalLeaningRate(sgd_momentum, minibatch_size=32)  # first line - instantiate the class
 trainer = C.Trainer(...)
 
 for epoch in range(10):
     for batch in range(100):
         trainer.train_minibatch(...)
-        clr.batch_step()  # add this line of code after every trainer.train_minibatch call
+        clr.batch_step()  # second line - add this line of code after every trainer.train_minibatch call
 ```
